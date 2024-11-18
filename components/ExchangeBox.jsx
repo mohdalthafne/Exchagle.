@@ -60,8 +60,8 @@ const ExchangeBox = () => {
                     <p className='text-center text-lg sm:text-xl font-normal border-2 p-1 rounded-lg border-[#695cfe]'>{loading ? 'Getting Data' : result}</p>
                 </div>
                 <div className='my-4'>
-                    <p className='text-left text-xs sm:text-sm'>&copy; Copyright 2024 All Rights Reserved <Link href="/" className='text-[#f79f1f]'>Muhammed Althaf N E</Link> | Licensed Under <Link href="/" className='text-[#f79f1f]'>GNU GPL v3.0</Link></p>
-                    <p className='mt-2 text-md sm:text-lg'><Link href="/" className='hover:text-[#f79f1f] transition-all duration-500'><i className='fa-brands fa-github'></i> <span>View On Github</span></Link></p>
+                    <p className='text-left text-xs sm:text-sm'>&copy; Copyright 2024 All Rights Reserved <Link href="https://instagram.com/i_althaf.n" target='_blank' className='text-[#f79f1f]'>Muhammed Althaf N E</Link> | Licensed Under <Link href="https://github.com/mohdalthafne/Exchagle./blob/main/LICENSE" className='text-[#f79f1f]' target='_blank'>GNU GPL v3.0</Link></p>
+                    <p className='mt-2 text-md sm:text-lg'><Link href="https://github.com/mohdalthafne/Exchagle." target='_blank' className='hover:text-[#f79f1f] transition-all duration-500'><i className='fa-brands fa-github'></i> <span>View On Github</span></Link></p>
                 </div>
             </div>
         </>
