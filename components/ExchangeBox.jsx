@@ -18,7 +18,7 @@ const ExchangeBox = () => {
     }
 
     // API Datas
-    const API_KEY = process.env.NEXT_PUBLIC_EXCHANGE_API_KEY
+    const API_KEY = '3e4e8c9cbafd84d007e83c65'
     const API_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/pair/${fromCurrency}/${toCurrency}/${defaultAmount}`
 
     const getExchangeRate = async () => {
