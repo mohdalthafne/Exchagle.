@@ -38,7 +38,7 @@ const ExchangeBox = () => {
     }
 
     useEffect(() => {
-        console.log(API_URL)
+        getExchangeRate()
     }, [])
 
     return (
